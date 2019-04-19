@@ -1,0 +1,20 @@
+{
+    "editor.fontSize": 10,
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "go.gocodeAutoBuild": true,
+    "go.useCodeSnippetsOnFunctionSuggestWithoutType": true,
+    "go.lintTool": "golangci-lint",
+    "go.testFlags": [
+        "-v"
+    ],
+    "go.lintFlags": [
+        "--fast"
+    ]
+}
